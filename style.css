@@ -1,0 +1,15 @@
+h1{
+    font-family:American Typewriter;
+}
+.btn-info:hover{
+    background-color: mediumpurple;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#keyframes example{
+    from {box-shadow: 2px 2px 38px lavender;}
+    to{box-shadow: 2px 2px 38px rgb(126, 126, 190);}
+}
